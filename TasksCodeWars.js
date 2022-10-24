@@ -1,4 +1,4 @@
-function enough(cap, on, wait) {
+{function enough(cap, on, wait) {
    let sum = cap - on;
    
     if(sum >= wait){
@@ -9,3 +9,12 @@ function enough(cap, on, wait) {
   }
 
   console.log(enough(20, 20, 5));
+}
+
+{
+function makeNegative(num) {
+ 
+   return num <= 0 ? num : num * -1
+ }
+
+ console.log(makeNegative(7));}
