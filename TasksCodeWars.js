@@ -18,3 +18,7 @@ function makeNegative(num) {
  }
 
  console.log(makeNegative(7));}
+
+
+
+ {const makeUpperCase = (str) => str.toUpperCase()}
