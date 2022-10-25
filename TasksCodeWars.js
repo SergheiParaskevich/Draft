@@ -22,3 +22,10 @@ function makeNegative(num) {
 
 
  {const makeUpperCase = (str) => str.toUpperCase()}
+
+
+
+{const findAverage = (array) => array.length === 0 ? 0 : array.reduce((acc, item) => acc + item )/array.length;
+  // your code here
+  
+console.log(findAverage([]));}
