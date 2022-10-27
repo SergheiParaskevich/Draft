@@ -34,3 +34,35 @@ console.log(findAverage([]));}
   return Math.abs(dadYearsOld - sonYearsOld * 2 )
 } 
 console.log(twiceAsOld(36,7));}
+
+{const maps = (x) => x.map((item) => item * 2)}
+
+
+const  basicOp = (operation, value1, value2) => {
+
+  return  value1 + operation.replace('') + value2
+}
+console.log(basicOp('+',2,2));
+
+
+{function cockroachSpeed(s) {
+  return +Math.floor(s * 27.7778)
+}
+
+console.log(cockroachSpeed(1.08));}
+
+
+{const include = (arr, item) => {
+    const check = arr.find((elem) => elem === item) 
+          return check === item ? true : false
+}
+console.log(include([1, 2, 3], 1));  }
+
+
+
+  
+
+
+
+
+
