@@ -29,3 +29,8 @@ function makeNegative(num) {
   // your code here
   
 console.log(findAverage([]));}
+
+{function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld - sonYearsOld * 2 )
+} 
+console.log(twiceAsOld(36,7));}
