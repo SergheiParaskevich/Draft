@@ -59,10 +59,30 @@ console.log(cockroachSpeed(1.08));}
 console.log(include([1, 2, 3], 1));  }
 
 
+{function sum (numbers) {
+if(numbers[0] == undefined){
+  return 0
+}else if( typeof numbers[0] === typeof number){
+  return Math.abs(numbers.toString())
+}else {
+  return numbers.reduce((acc, item) => acc + item)
+}
+};
+console.log(sum([0]));
+}
+ 
+function task () {
+  const strArr = ['H','e','l','l','o'];
+  // const stmap = strArr.
+  return strArr.length
+}
 
+{const summation = (num) => {
+  let sum = 0;
+  for(let i = 0; i <= num; i++){
   
+    sum+=i
+  }return sum
+ }
 
-
-
-
-
+ console.log(summation(2));}
