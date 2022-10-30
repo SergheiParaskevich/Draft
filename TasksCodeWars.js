@@ -111,23 +111,26 @@ function task () {
 //  console.log(Array.from(rec));
 
 
-{function sameCase(a, b){
-  if(typeof a != typeof b){
-    return -1
-  }else if(a === b){
-    return 1
-  }else{
-    return 0
-  }
-}
+// {function sameCase(a, b){
+//   if(typeof a != typeof b){
+//     return -1
+//   }else if(a === b){
+//     return 1
+//   }else{
+//     return 0
+//   }
+// }
 
-console.log(sameCase('a', '8'));
-}
+// console.log(sameCase('a', '8'));
+// }
 
-function typeOfSum(a, b) {
- let с = a + b;
+{const removeEveryOther = (arr) => arr.filter((item, index) => index % 2 !== 1 )
   
- return c
-}
 
-console.log(typeOfSum(1,'a'));
+
+console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']));}
+
+
+{function testEven(n) {
+  return n % 2 === 0 ? true : false
+}}
