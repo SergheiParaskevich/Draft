@@ -86,3 +86,48 @@ function task () {
  }
 
  console.log(summation(2));}
+
+ 
+ 
+ function shortcut (string) {
+  
+}
+
+// function modifyMultiply (str,loc,num) {
+//   //Code here
+//   let toArr = str.split(' ')
+//    console.log(toArr[loc].repeat(num));
+//   } 
+//  modifyMultiply("Everything happening around me is very random. I am enjoying the phase, as the journey is far more enjoyable than the destination.",2,5)
+
+
+
+// const arr = N => N-=1
+
+
+//  console.log(arr(5));
+
+//  let rec = 'abc';
+//  console.log(Array.from(rec));
+
+
+{function sameCase(a, b){
+  if(typeof a != typeof b){
+    return -1
+  }else if(a === b){
+    return 1
+  }else{
+    return 0
+  }
+}
+
+console.log(sameCase('a', '8'));
+}
+
+function typeOfSum(a, b) {
+ let с = a + b;
+  
+ return c
+}
+
+console.log(typeOfSum(1,'a'));
