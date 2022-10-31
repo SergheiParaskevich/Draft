@@ -131,6 +131,26 @@ function task () {
 console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']));}
 
 
-{function testEven(n) {
-  return n % 2 === 0 ? true : false
-}}
+// {function testEven(n) {
+//   return n % 2 === 0 ? true : false
+// }}
+
+// let arr = [];
+// function findMultiples(integer, limit) {
+//   if(integer <= limit){
+//     limit-=integer
+    
+//     arr.push(limit)
+//   }
+//   return arr
+// }
+
+
+
+
+{function check(a, x) {
+const elem = a.find((item) => item === x);
+return elem === x ? true : false
+}
+
+console.log(check(['what', 'a', 'great', 'kata'], 'kata'));}
