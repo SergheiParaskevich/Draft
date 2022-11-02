@@ -154,3 +154,9 @@ return elem === x ? true : false
 }
 
 console.log(check(['what', 'a', 'great', 'kata'], 'kata'));}
+
+{function past(h, m, s){
+  let htoosek = h*60*60;
+  let mintosekond = m*60;
+  return (htoosek + mintosekond + s)*1000
+}}
