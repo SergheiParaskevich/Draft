@@ -160,3 +160,11 @@ console.log(check(['what', 'a', 'great', 'kata'], 'kata'));}
   let mintosekond = m*60;
   return (htoosek + mintosekond + s)*1000
 }}
+
+
+function repeatStr (n, s) {
+  
+  return s.repeat(n)
+}
+
+console.log(repeatStr(2, 'hello'));
