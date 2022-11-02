@@ -167,4 +167,8 @@ function repeatStr (n, s) {
   return s.repeat(n)
 }
 
-console.log(repeatStr(2, 'hello'));
+{console.log(repeatStr(2, 'hello'));
+
+function _if(bool, func1, func2) {
+  return bool ? func1() : func2();
+}}
