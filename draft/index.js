@@ -284,11 +284,59 @@
 //  console.log(allnames);
 
 
+// const get_users = async () => {
+//   const result = [];
 
-const get_users = async (id) => {
-  const response = await fetch(`https://reqres.in/api/unknown/${id}`);
-  const users =  await response.json();
-  console.log(users.data);              
-}
 
-get_users(2)
+
+// }
+
+// for(let i = 1; i < 5; i++){
+
+//   const get_users = async (id) => {
+//     const response = await fetch(`https://reqres.in/api/unknown/${id}`);
+//     const {data} =  await response.json();
+      
+// }
+// console.log(users.data);  
+
+
+// get_users(2)
+
+const products = [
+  {
+      id: 1,
+      title: 'велосипед',
+      price: 45000,
+      marks: [4, 3, 5, 4, 4, 5]
+  },
+  {
+      id: 2,
+      title: 'ролики',
+      price: 15000,
+      marks: [3, 4, 3, 3]
+  },
+  {
+      id: 3,
+      title: 'самокат',
+      price: 12000,
+      marks: []
+  },
+  {
+      id: 4,
+      title: 'лыжи',
+      price: 25000,
+      marks: [5, 4, 5, 5, 4]
+  },
+  {
+      id: 5,
+      title: 'сноуборд',
+      price: 27000,
+      marks: [2, 3, 2, 2]
+  }
+];
+
+
+const searchName = products.map((item) => item.title)
+
+console.log(searchName);
