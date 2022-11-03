@@ -285,10 +285,10 @@
 
 
 
-const get_users = async () => {
-  const response = await fetch('https://reqres.in/api/users');
+const get_users = async (id) => {
+  const response = await fetch(`https://reqres.in/api/unknown/${id}`);
   const users =  await response.json();
-  console.log(users);
+  console.log(users.data);              
 }
 
-get_users()
+get_users(2)
