@@ -337,6 +337,65 @@ const products = [
 ];
 
 
-const searchName = products.map((item) => item.title)
+// const searchName = products.reduce((prev, {price}) => prev < price ? price : prev, 0)
 
-console.log(searchName);
+// console.log(searchName);
+
+
+// const searchName = products.reduce((prev, item) => prev.price < item.price ? item : prev);
+
+// console.log(searchName);
+
+
+
+// массив из названии товара
+
+// const searchName = products.reduce((prev, {title}) => [...prev ,  title], [] ) ;
+
+// console.log(searchName);
+
+//формирует массив из вех оценок
+
+// const result = products.map((item) => item.marks.reduce((acc, item) => item.));
+
+// console.log(result);
+
+// let user = {
+//   name: 'John',
+//   age: 30
+// };
+
+
+
+// console.log([user].map((item) => {item} = user));
+
+// function check(a,x){
+//   a.find((item) => item == x ? true : false)
+  
+// };
+
+// console.log(check([1,2,3,4],2));
+
+
+// const posts = [
+//   {
+//     title: 'My first title',
+//     descr: 'My first description',
+//     author: 'Arsen'
+//   },
+//   {
+//     title: 'My second title',
+//     descr: 'My second description',
+//     author: 'Ivan'
+//   }
+// ]
+
+// const title = prompt('Wwedite sagolovok');
+// const descr = prompt('Wwedite opisanie');
+
+
+const arr = ['hello', 'world'];
+
+const newArr = [...arr, ' dsasdas']
+
+console.log(arr); //[ 'hello', 'world', ' dsasdas' ]
