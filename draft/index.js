@@ -370,11 +370,19 @@ const products = [
 // console.log([user].map((item) => {item} = user));
 
 // function check(a,x){
-//   a.find((item) => item == x ? true : false)
-  
-// };
+//   const elem = a.find((item) => item === x){
+//     return elem ===
+//   }
+    
 
-// console.log(check([1,2,3,4],2));
+   
+  // }
+  // check([1,2,3,4],2);
+
+
+
+
+
 
 
 // const posts = [
@@ -394,8 +402,73 @@ const products = [
 // const descr = prompt('Wwedite opisanie');
 
 
-const arr = ['hello', 'world'];
+// const arr = ['hello', 'world'];
 
-const newArr = [...arr, ' dsasdas']
+// const newArr = [...arr, ' dsasdas']
 
-console.log(arr); //[ 'hello', 'world', ' dsasdas' ]
+// console.log(arr); //[ 'hello', 'world', ' dsasdas' ]
+
+
+
+
+// const posts = [
+//     {
+//       title: 'My first title',
+//       descr: 'My first description',
+//       author: 'Arsen'
+//     },
+//     {
+//       title: 'My second title',
+//       descr: 'My second description',
+//       author: 'Ivan'
+//     }
+//   ]
+
+
+//   for(let i = 0; i < posts.length; i++){
+//         console.log(posts[i].title);
+//   }
+
+
+
+  const books = [
+    {
+        author: 'Pushkin',
+        name: 'Kapitan Doch',
+        count: '500'
+
+    },
+    {
+      author: 'Tolstoi',
+      name: 'Woina i mir',
+      count: '1000'
+    }
+
+  ];
+
+
+const newAuthor = prompt('Naswanie awtora');
+const newName = prompt('Naswanie knigi');
+const newCount = prompt('Kolchestwo knig');
+
+const newBook = {
+
+  author: newAuthor,
+  name: newName,
+  count: newCount
+};
+
+const newBooks = books.concat(newBook)
+
+
+  for(let i = 0; i < newBooks.length; i++){
+    console.log(newBooks[i].author,' ', newBooks[i].name, ' ',newBooks[i].count);
+  }
+
+
+  function check(a,x){
+  const elem =  a.find((item) => item === x )
+    return elem === x ? true : false
+};
+
+  console.log((check([80, 117, 115, 104, 45, 85, 112, 115], 4115)));
