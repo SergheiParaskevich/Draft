@@ -461,14 +461,11 @@ const newBook = {
 const newBooks = books.concat(newBook)
 
 
-  for(let i = 0; i < newBooks.length; i++){
-    console.log(newBooks[i].author,' ', newBooks[i].name, ' ',newBooks[i].count);
-  }
+newBooks.map((item) => console.log(item.author, item.name, item.count))
 
+//   function check(a,x){
+//   const elem =  a.find((item) => item === x )
+//     return elem === x ? true : false
+// };
 
-  function check(a,x){
-  const elem =  a.find((item) => item === x )
-    return elem === x ? true : false
-};
-
-  console.log((check([80, 117, 115, 104, 45, 85, 112, 115], 4115)));
+//   console.log((check([80, 117, 115, 104, 45, 85, 112, 115], 4115)));
