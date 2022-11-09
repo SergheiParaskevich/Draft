@@ -469,3 +469,10 @@ newBooks.map((item) => console.log(item.author, item.name, item.count))
 // };
 
 //   console.log((check([80, 117, 115, 104, 45, 85, 112, 115], 4115)));
+
+const findFirstNumber = (n, xs) => {
+  const newArr = xs.sort((a, b) => b - a);
+  return newArr
+}
+
+
