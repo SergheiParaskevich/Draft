@@ -1,0 +1,13 @@
+img{
+    width: 245px;
+    height: 145px;
+}
+.grid_container{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: auto;
+    gap: 60px;
+   
+}
+
